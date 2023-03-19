@@ -8,9 +8,25 @@ Este repositório contém um projeto simples de integração entre Python e Fire
 - Jupyter Notebook
 - ibliotecas requests e json
 
-#Instalação
+# Configuração
 
-1 - Clone o repositório:
+Antes de executar o arquivo main.ipynb, configure suas credenciais do Firebase:
 
-`git clone https://github.com/yourusername/python-firebase-integration.git`
+1. Acesse o console do Firebase, crie um novo projeto ou utilize um projeto existente.
+
+2. Crie um arquivo chamado firebase_credentials.json no diretório raiz do projeto.
+
+3. Vá até a página "Configuração do projeto" e clique em "Adicionar aplicativo" na seção "Seus aplicativos".
+
+4. Selecione a plataforma "Web" e siga as instruções para criar o aplicativo.
+
+{
+  "apiKey": "your-api-key",
+  "authDomain": "your-auth-domain",
+  "databaseURL": "your-database-url",
+  "projectId": "your-project-id",
+  "storageBucket": "your-storage-bucket",
+  "messagingSenderId": "your-messaging-sender-id",
+  "appId": "your-app-id"
+}
 
