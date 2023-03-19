@@ -25,7 +25,9 @@ Antes de executar o arquivo main.ipynb, configure suas credenciais do Firebase:
 
 1. Inicie o Jupyter Notebook:
 
-`jupyter notebook`
+```
+jupyter notebook
+```
 
 2. Abra o arquivo main.ipynb no navegador e siga as instruções contidas no notebook.
 
