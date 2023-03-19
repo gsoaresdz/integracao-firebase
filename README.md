@@ -20,13 +20,16 @@ Antes de executar o arquivo main.ipynb, configure suas credenciais do Firebase:
 
 4. Selecione a plataforma "Web" e siga as instruções para criar o aplicativo.
 
-{
-  "apiKey": "your-api-key",
-  "authDomain": "your-auth-domain",
-  "databaseURL": "your-database-url",
-  "projectId": "your-project-id",
-  "storageBucket": "your-storage-bucket",
-  "messagingSenderId": "your-messaging-sender-id",
-  "appId": "your-app-id"
-}
 
+# Execução
+
+1. Inicie o Jupyter Notebook:
+
+`jupyter notebook`
+
+2. Abra o arquivo main.ipynb no navegador e siga as instruções contidas no notebook.
+
+# Bibliotecas utilizadas
+
+- requests: Biblioteca para realizar requisições HTTP.
+- json: Biblioteca para trabalhar com arquivos e strings JSON.
