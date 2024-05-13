@@ -1,37 +1,51 @@
-# Integração Python com Firebase
+<h1 align="center">Integração Python com Firebase</h1>
 
-Este repositório contém um projeto simples de integração entre Python e Firebase, utilizando as bibliotecas requests, json e um arquivo Jupyter Notebook main.ipynb. O objetivo deste projeto é demonstrar como realizar operações básicas no Firebase, como criar, ler, atualizar e deletar dados utilizando Python.
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/integracao-firebase?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/integracao-firebase?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/integracao-firebase?color=56BEB8">
+</p>
 
-# Requisitos
+<p align="center">
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0;
+  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-execução">Execução</a> &#xa0; | &#xa0;
+  <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
+  <a href="https://github.com/seuprojeto" target="_blank">Autor</a>
+</p>
 
-- Python 3.6 ou superior
-- Jupyter Notebook
-- ibliotecas requests e json
+<br>
 
-# Configuração
+## :dart: Sobre
 
-Antes de executar o arquivo main.ipynb, configure suas credenciais do Firebase:
+Este repositório contém um projeto simples de integração entre Python e Firebase, utilizando as bibliotecas requests e json, e um arquivo Jupyter Notebook (main.ipynb). O objetivo é demonstrar como realizar operações básicas no Firebase, como criar, ler, atualizar e deletar dados utilizando Python.
 
-1. Acesse o console do Firebase, crie um novo projeto ou utilize um projeto existente.
+## :rocket: Tecnologias
 
-2. Crie um arquivo chamado firebase_credentials.json no diretório raiz do projeto.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-3. Vá até a página "Configuração do projeto" e clique em "Adicionar aplicativo" na seção "Seus aplicativos".
+- [Python](https://www.python.org/)
+- [Jupyter](https://jupyter.org/)
 
-4. Selecione a plataforma "Web" e siga as instruções para criar o aplicativo.
+## :white_check_mark: Requerimentos
 
+Antes de iniciar :checkered_flag:, você precisa ter o [Python](https://www.python.org/) e o [Jupyter Notebook](https://jupyter.org/) instalados.
 
-# Execução
+## :checkered_flag: Execução
 
-1. Inicie o Jupyter Notebook:
-
-```
+```bash
+# Inicie o Jupyter Notebook
 jupyter notebook
-```
 
-2. Abra o arquivo main.ipynb no navegador e siga as instruções contidas no notebook.
+# Abra o arquivo main.ipynb no navegador e siga as instruções contidas no notebook.
 
-# Bibliotecas utilizadas
+## :memo: Licença
 
-- requests: Biblioteca para realizar requisições HTTP.
-- json: Biblioteca para trabalhar com arquivos e strings JSON.
+Este projeto está sob licença do MIT. Para obter mais detalhes, consulte o arquivo [LICENSE](LICENSE).
+
+Feito com :heart: by <a href="https://github.com/gsoaresdz" target="_blank">gsoaresdz</a>
+
+&#xa0;
+
+<a href="#top">De volta ao topo</a>
