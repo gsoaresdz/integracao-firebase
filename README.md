@@ -37,6 +37,7 @@ Antes de iniciar :checkered_flag:, você precisa ter o [Python](https://www.pyth
 ```bash
 # Inicie o Jupyter Notebook
 jupyter notebook
+```
 
 # Abra o arquivo main.ipynb no navegador e siga as instruções contidas no notebook.
 
